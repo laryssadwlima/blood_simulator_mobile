@@ -1,0 +1,33 @@
+name: blood_donation_simulator
+description: A Flutter app to simulate blood donation eligibility and search hemocenters.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.2
+  provider: ^6.1.2
+  flutter_map: ^6.1.0
+  geolocator: ^12.0.0
+  latlong2: ^0.9.1
+  url_launcher: ^6.3.0
+  webview_flutter: ^4.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/logo1.png
+    - assets/img/logo2.png
+    - assets/img/doe.png
+    - assets/img/map.png
+    - assets/icons/home.png
+    - assets/icons/simulator.png
+    - assets/icons/whocan.png
+    - assets/icons/care.png
+    - assets/icons/hemocenters.png
+
